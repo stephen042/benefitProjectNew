@@ -76,7 +76,7 @@ new class extends Component {
     @include('partials.settings-heading')
 
     <x-settings.layout :heading="__('Profile')" :subheading="__('Update your name and email address')">
-        <form wire:submit="updateProfileInformation" class="my-6 w-full space-y-6" style="margin-bottom: 20px;">
+        <form wire:submit="updateProfileInformation" class="my-6 w-full space-y-6">
             <flux:input wire:model="name" :label="__('Name')" type="text" required autofocus autocomplete="name" />
 
             <div>
@@ -112,6 +112,8 @@ new class extends Component {
                     {{ __('Saved.') }}
                 </x-action-message>
             </div>
+            <hr>
+            <br>
         </form>
 
         {{-- <livewire:settings.delete-user-form /> --}}
