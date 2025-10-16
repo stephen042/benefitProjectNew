@@ -123,5 +123,5 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'Admin_email' => 'support@riskbenefitxpro.online',
+    'Admin_email' => 'no-reply@riskbenefitpro.online',
 ];
