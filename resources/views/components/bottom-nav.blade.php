@@ -1,4 +1,4 @@
-<div class="fixed bottom-0 left-0 w-full shadow-lg md:hidden p-3 border-t border-gray-300 dark:border-gray-700 bg-white dark:bg-black" style="margin-top: 15px ">
+<div class="fixed bottom-0 left-0 w-full shadow-lg md:hidden p-3 border-t border-gray-300 dark:border-gray-700 bg-white dark:bg-black" style="z-index: 1000;">
     <flux:navbar class="flex justify-around">
         <flux:navbar.item href="{{ route('dashboard') }}" icon="home"></flux:navbar.item>
         <flux:navbar.item href="{{ route('user.receive') }}" icon="download"></flux:navbar.item>
